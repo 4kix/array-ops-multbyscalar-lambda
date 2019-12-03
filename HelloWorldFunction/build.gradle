@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.amazonaws:aws-lambda-java-core:1.2.0'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'org.apache.commons:commons-math3:3.6'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    compile group: 'org.ejml', name: 'ejml-all', version: '0.38'
+    testImplementation 'junit:junit:4.12'
+}

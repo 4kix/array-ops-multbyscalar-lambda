@@ -1,0 +1,5 @@
+# Project exclude paths
+/HelloWorldFunction/.gradle/
+/HelloWorldFunction/build/
+/HelloWorldFunction/build/classes/java/main/
+/HelloWorldFunction/build/classes/java/test/
